@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+          type="image/png" 
+          href="/assets/icons8-heart-16.png" />
+    <meta charset="utf-8">
+    <title>Heartbeat Data</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <h2 style="margin-left: 100px">Heartbeat Statistics</h2>
+    <div class="container">    
+      <div class="row">
+	<div >
+    <div style="margin-left: 300px">
+      <div>  
+      <input type="radio" name="hdata" id="jdata" value="jdata" checked="checked">John's Heartbeat Pattern</input>
+    </div>
+    <div>
+        <input type="radio" name="hdata" id="kdata" value="kdata">Kevin's Heartbeat Pattern</input>      
+      </div>
+    </div>
+    <div>
+      <svg width="600" height="600"> </svg> <!-- col -->
+    </div>
+	</div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+	    
+    <!-- page content -->
+    <script src="libs/jquery-1.11.0.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/d3.v4.js"></script>    
+    <script src="js/custom-chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+  </body>
+</html>
